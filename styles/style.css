@@ -57,7 +57,11 @@
 
 .main {
   background: #fff;
+}
+
+.section {
   text-align: center;
+  align-items: center;
 }
 
 .my-failure {
@@ -101,7 +105,76 @@
   color: #151414;
   font-size: 40px;
   font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .plans {
   display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.plan-list {
+  padding: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.plan-list img {
+  width: 92.958px;
+  height: 92.958px;
+}
+
+.plist-title {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.plist-desc {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* CTA Section Design */
+
+.cta {
+  background-image: url("../images/watch.png"),
+    linear-gradient(90deg, #f15b22 10%, rgba(241, 91, 34, 0) 100%);
+  background-blend-mode: overlay;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  width: auto;
+  height: 300px;
+  border-radius: 8px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 120px;
+}
+
+.cta-title {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 130px;
+  padding-top: 50px;
+  width: 459px;
+}
+
+.cta-btn {
+  border-radius: 5px;
+  background: #fff;
+  width: 160px;
+  height: 64px;
+  margin-left: 130px;
+  border: none;
+  color: #f15b22;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
 }
