@@ -178,3 +178,97 @@
   font-weight: 600;
   margin-top: 20px;
 }
+
+/* Footer Style */
+footer {
+  width: auto;
+  height: 450px;
+  background-color: #151414;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+}
+
+.future {
+  width: 485px;
+  color: #fff;
+}
+
+.f-title {
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.f-desc {
+  width: 485px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+}
+
+.f-mail {
+  margin-top: 24px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.f-phone {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+}
+
+.future-logo {
+  display: flex;
+  list-style: none;
+}
+
+.future-logo li {
+  margin-right: 20px;
+  margin-top: 32px;
+}
+
+.subscribe {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.form input[type="email"] {
+  margin-top: 25px;
+  width: 325px;
+  height: 64px;
+  background-color: #151414;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  display: block;
+  color: #f3f3f3;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form input[type="button"] {
+  width: 170.106px;
+  height: 64px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background: #fff;
+  color: #f15b22;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+input[type="email"]::placeholder {
+  padding-left: 30px;
+}
